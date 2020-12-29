@@ -7,6 +7,7 @@
   },
   "devDependencies": {
     "@apollo/client": "^3.2.9",
+    "@babel/plugin-transform-react-jsx": "^7.12.12",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
@@ -16,7 +17,7 @@
     "@typescript-eslint/parser": "^2.20.0",
     "apollo-link-error": "^1.1.13",
     "apollo-link-http": "^1.5.17",
-    "babel-core": "^6.26.3",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^26.6.3",
     "babel-loader": "7",
     "babel-preset-env": "^1.7.0",
