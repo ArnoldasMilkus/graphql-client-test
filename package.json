@@ -7,12 +7,14 @@
   },
   "devDependencies": {
     "@apollo/client": "^3.2.9",
+    "@babel/core": "^7.12.10",
     "@babel/plugin-transform-react-jsx": "^7.12.12",
     "@babel/preset-env": "^7.12.11",
     "@babel/preset-react": "^7.12.10",
     "@babel/preset-typescript": "^7.12.7",
     "@fortawesome/fontawesome-free": "^5.12.0",
     "@types/react-dom": "^16.9.4",
+    "@types/react-router-dom": "^5.1.6",
     "@typescript-eslint/eslint-plugin": "^2.20.0",
     "@typescript-eslint/parser": "^2.20.0",
     "apollo-link-error": "^1.1.13",
@@ -69,7 +71,5 @@
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest"
   },
-  "dependencies": {
-    "@types/react-router-dom": "^5.1.6"
-  }
+  "dependencies": {}
 }

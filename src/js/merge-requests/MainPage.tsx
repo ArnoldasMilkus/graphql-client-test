@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { Route, Link, Switch } from 'react-router-dom';
+import { Route, Link, Switch, NavLink } from 'react-router-dom';
 import CurrencyRatesContainer from "./CurrencyRatesContainer";
 import Error from "./Error";
 import TestComp from "./TestComp";
@@ -36,7 +36,7 @@ export default class MainPage extends Component<{}, MainPageInterface> {
                         path='/public'
                         render={(): React.ReactElement => (
                             <div>
-                                <h2>Hello2</h2>
+                                <h2>Hello home page</h2>
                             </div>
                         )}
                         exact
